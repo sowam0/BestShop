@@ -232,3 +232,233 @@
 .benefits-left3{
     padding-right: 100px;
 }
+.title-prices{
+    font-size: 36px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.picing-columns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pricing-column1{
+    position: relative;
+    padding: 50px;
+    width: 372px;
+    height: 461px;
+    border: 2px solid var(--color-redish);
+    border-radius: 35px;
+}
+.pricing-column2{
+    position: relative;
+    padding: 50px;
+    width: 405px;
+    height: 500px;
+    border: 2px solid var(--color-primary);
+    border-radius: 35px;
+}
+.pricing-column3{
+    position: relative;
+    width: 372px;
+    padding: 50px;
+    height: 461px;
+    border: 2px solid var(--color-green);
+    border-radius: 35px;
+}
+.price{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.price h4{
+    font-size: 12px;
+}
+.price h3{
+    padding-bottom: 25px;
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    font-weight: bold;
+}
+.price h2{
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-redish);
+
+    
+}
+.price2 h2{
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-primary);
+    padding-bottom: 20px;
+}
+.price3 h2{
+    font-family: var(--font-open-sans);
+    font-size: 46px;
+    color: var(--color-green);
+    padding-bottom: 20px;
+}
+.price-contnent{
+    position: relative;
+    text-align: center;
+}
+.price-contnent h3{
+    padding-bottom: 20px;
+}
+.btn-pricing a{
+    list-style-type: none;
+    text-decoration: none;
+padding: 25px 75px;
+    background-color: var(--color-redish);
+    border-radius: 45px;
+    position: absolute;
+    left: 25%;
+    bottom: -7%;
+}
+.btn-pricing2 a{
+    list-style-type: none;
+    text-decoration: none;
+padding: 25px 75px;
+    background-color: var(--color-primary);
+    border-radius: 45px;
+    position: absolute;
+    left: 25%;
+    bottom: -7%;
+}
+.btn-pricing3 a{
+    list-style-type: none;
+    text-decoration: none;
+padding: 25px 75px;
+    background-color: var(--color-green);
+    border-radius: 45px;
+    position: absolute;
+    left: 25%;
+    bottom: -7%;
+}
+.pricing__item::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("assets/Ckechmark-1.svg");
+  }
+  .pricing__item--not::before {
+    background-image: url("../assets/Close.svg");
+  }
+  .pricing__item{
+    padding-bottom: 10px;
+  }
+  .last-section{
+    padding-top: 80px;
+    margin: 0 auto;
+    width: 869px;
+    height: 386px;
+    display: flex;
+  }
+  .content h3{
+    padding-bottom: 25px;
+    font-size: 49px;
+    font-family: var(--font-raleway);
+    padding-bottom: 20px;
+  }
+  .contant{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .abc{
+    font-size: 16px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+  }
+  .content p{
+    align-items: center;
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
+  .content{
+    width: 440px;
+  }
+  .form{
+
+    width: 440px;
+  }
+  .form__label{
+    margin-bottom: 220px;
+    font-size: 11px;
+    color: var(--color-primary);
+  }
+.form input{
+    width: 440px;
+    border: 0;
+    border-bottom: 2px solid var(--color-grey);
+}
+
+.consent__text{
+    color: #707070;
+}
+.okrycie-przycisku{
+
+    text-align: right;
+}
+.btn--primary{
+    padding: 20px 80px;
+    background-color: var(--color-primary);
+    color: white;
+    border: 0;
+    border-radius: 35px;
+}
+/* input type[type=checkbox]{
+    border: 0;
+    display: none;
+} */
+
+.form__checkbox input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.form__checkbox span{
+height: 24px;
+width: 24px;
+flex-shrink: 0;
+
+border: 1px solid gray;
+cursor: pointer;
+margin-right: 15px;
+}
+.form__checkbox{
+    display: flex;
+}
+.form__checkbox input:checked + span{
+    background-image: url(assets/Checkmark.svg);
+    background-position: center;
+    background-size: 12px;
+    background-repeat: no-repeat;
+}
+.footer-bestshop h3{
+    font-size: 26px;
+    color: var(--color-primary);
+}
+.footer-bestshop p{
+    font-size: 16px;
+    color: var(--color-grey);
+}
+.footer{
+    padding-top: 100px;
+    width: 1266px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.last-section{
+    margin-top: 150px;
+}
